@@ -1,0 +1,12 @@
+[package]
+name = "riscv-rt-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+riscv = "0.12.1"
+riscv-rt = "0.13.0"
+
+[patch.crates-io]
+riscv = { git = "https://github.com/rust-embedded/riscv" }
+riscv-rt = { git = "https://github.com/rust-embedded/riscv" }
